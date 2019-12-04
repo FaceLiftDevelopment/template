@@ -37,7 +37,6 @@ h1 {
     background-size: cover;
     position: relative;
     min-height: 50vh;
-    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .title-card h2{
@@ -50,71 +49,28 @@ h1 {
     font-size: 50px;
 }
 
-.mission-slide{
+.slogan{
+    background-color: #97aabd;
     padding: 2rem;
-    background: rgba(133, 144, 170, 0.158);
+    height: 100px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
-.mission-statement h1{
+.slogan h3{
+    color: #253441;
+    text-align: center;
+    font-size: 30px;
+}
+
+.values{
+    padding: 3rem;
     text-align: center;
 }
 
-.mission-picture{
+.values-picture {
     max-width:100%;
     height:auto;
     border-radius: 5px;
-}
-
-.reviews .card{
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        width: auto;
-        box-shadow: 3px;
-}
-
-.reviews .fas{
-    color: rgb(236, 204, 22);
-}
-
-.button-bar{
-    min-height: 50px;
-    padding: 1rem;
-    color: white;
-    text-align: center;
-}
-
-.map{
-    padding: 2rem 5rem;
-    background: rgba(133, 144, 170, 0.158);
-}
-
-.map h3{
-    text-align: center;
-}
-
-#map {
-    height:45vh;
-    width: 100%;
-}
-
-.map .contact-text{
-    position: relative;
-}
-
-.map h4{
-    font-weight: 800;
-}
-
-.map h6 b{
-    font-size: 18px;
-}
-
-.map .socials {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
 }
 
 .footer {

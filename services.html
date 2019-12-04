@@ -25,57 +25,47 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Facelift Development</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg">
+            <a id="navbar-brand" class="navbar-brand" href="index.html">Facelift Development</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+            </div>
+        </nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <!-- <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Service #1</a>
-                        <a class="dropdown-item" href="#">Service #2</a>
-                        <a class="dropdown-item" href="#">Service #3</a>
-                    </div>
-                </li> -->
-        </div>
-    </nav>
-
-    <!-- Services page title card-->
-    <div class="title-card shadow">
-        <h2>Our Services</h2>
+    <!-- Landing page title card-->
+    <div class="title-card">
+        <h2 id="title-header">Services</h2>
     </div>
 
     <!-- Service Bar -->
-    <div class="row service-bar shadow">
+    <div class="row service-bar">
         <div class="col-md-4 service-button1">
-            <h5>Service 1</h5>
+           <a href="#service1"> <h5>Web Design</h5></a>
         </div>
         <div class="col-md-4 service-button2">
-            <h5>Service 2</h5>
+            <a href="#service2"><h5>Web Hosting</h5></a>
         </div>
         <div class="col-md-4 service-button3">
-            <h5>Service 3</h5>
+            <a href="#service3"><h5>User Interface</h5></a>
         </div>
     </div>
 
     <!-- Services -->
+    <a id="service1"></a>
     <div class="row service">
         <div class="col-md-5">
             <img class="service-picture shadow" src="assets/service1.jpg">
@@ -91,9 +81,10 @@
         </div>
     </div>
 
+    <a id="service2"></a>
     <div class="row service">
         <div class="col-md-7">
-            <h3>Web Design</h3>
+            <h3>Web Hosting</h3>
             Though this method also uses absolute positioning and “left: 50%”, I’ve also applied two more properties
             to the element.
             By setting the top property to 50% as well, I’m telling the browser to line up the top edge of our red
@@ -106,12 +97,13 @@
         </div>
     </div>
 
+    <a id="service3"></a>
     <div class="row service">
         <div class="col-md-5">
             <img class="service-picture shadow" src="assets/service3.jpg">
         </div>
         <div class="col-md-7">
-            <h3>Web Design</h3>
+            <h3>User Interface</h3>
             Though this method also uses absolute positioning and “left: 50%”, I’ve also applied two more properties
             to the element.
             By setting the top property to 50% as well, I’m telling the browser to line up the top edge of our red
@@ -123,8 +115,9 @@
 
     <!-- Footer -->
     <div class="footer">
-        <p>777 E Colfax Ave, Denver, CO 80521</p>
+        <p>Developed by Facelift Development LLC</p>
     </div>
-</body>
 
+</body>
+<script src="logic.js"></script>
 </html>

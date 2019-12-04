@@ -7,6 +7,7 @@ body {
 
 h1 {
     text-align: center;
+    padding: 1rem;
 }
 
 .navbar {
@@ -15,25 +16,47 @@ h1 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
+    background-color: #314455;
+}
+
+.navbar a{
+    color: #97aabd
+}
+
+#navbar-brand{
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
 }
 
 .title-card {
-    background-image: url("assets/title-card.png");
+    background-image: url("assets/title-card.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 45vh;
+    min-height: 50vh;
 }
 
 .title-card h2{
     text-align: center;
-    vertical-align: middle;
-    line-height: 30vh; 
+    padding-top: 15vh;
+}
+
+#title-header{
+    color: white;
+    font-size: 50px;
 }
 
 .service-bar{
-background: grey;
+background: #314455;
+box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
+
+.service-bar a{
+    text-decoration: none;
+    }
 
 .service-bar h5{
     padding: 1rem;
@@ -43,17 +66,17 @@ background: grey;
 
 .service-button1:hover{
     cursor: pointer;
-    background: rgb(99, 99, 99);
+    background: #97AABD;
 }
 
 .service-button2:hover{
     cursor: pointer;
-    background: rgb(99, 99, 99);
+    background: #97AABD;
 }
 
 .service-button3:hover{
     cursor: pointer;
-    background: rgb(99, 99, 99);
+    background: #97AABD;
 }
 
 .service{
@@ -68,8 +91,13 @@ background: grey;
 }
 
 .footer {
-    background: rgb(32, 32, 32);
+    background-color: #253441;
     height: 50px;
     text-align: center;
     color: rgba(168, 175, 175, 0.39);
+}
+
+.footer p{
+    padding-top: 1rem;
+    margin-bottom: 0px;
 }
