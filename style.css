@@ -23,6 +23,16 @@ h1 {
     color: #97aabd
 }
 
+.navbar i{
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-phone{
+    color: white;
+    font-size: 20px;
+}
+
 #navbar-brand{
     color: white;
 }
@@ -32,7 +42,7 @@ h1 {
 }
 
 .title-card {
-    background-image: url("assets/title-card.jpg");
+    background-image: url("assets/maroon-bells.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -47,7 +57,7 @@ h1 {
 
 #title-header{
     color: white;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .mission-slide{
@@ -65,12 +75,22 @@ h1 {
     border-radius: 5px;
 }
 
+.reviews{
+    background-image: url("assets/title-card.jpg");
+}
+
+.reviews h1{
+    width: 100%;
+    color: white;
+}
+
 .reviews .card{
         margin: 0 auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
         width: auto;
         box-shadow: 3px;
+        text-align: center;
 }
 
 .reviews .fas{

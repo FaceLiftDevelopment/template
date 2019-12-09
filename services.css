@@ -23,6 +23,16 @@ h1 {
     color: #97aabd
 }
 
+.navbar i{
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-phone{
+    color: white;
+    font-size: 20px;
+}
+
 #navbar-brand{
     color: white;
 }
