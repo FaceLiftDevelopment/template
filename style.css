@@ -11,12 +11,18 @@ h1 {
 }
 
 .navbar {
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
-    background-color: #314455;
+    background: none;
+    transition: background .3s linear;
+}
+
+.opaque-nav{ 
+    background: #253441;  
+    /* transition the background-color over 1s with a linear animation */
+    transition: background .3s linear;
 }
 
 .navbar a{
@@ -52,12 +58,13 @@ h1 {
 
 .title-card h2{
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 18vh;
 }
 
 #title-header{
     color: white;
-    font-size: 45px;
+    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 .mission-slide{

@@ -17,7 +17,6 @@ function initMap() {
 }
 
 $(document).ready(function () {
-    console.log("ready!");
     width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     console.log(height);
@@ -49,3 +48,12 @@ $(document).ready(function () {
     } // End if
   });
 });
+
+$(window).on('scroll', function() {
+  console.log("Scrolling")
+    if($(window).scrollTop() > 1){
+      $('nav').addClass('opaque-nav');
+    }else {
+      $('nav').removeClass('opaque-nav');
+    }
+  })
