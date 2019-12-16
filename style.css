@@ -52,13 +52,13 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 50vh;
+    min-height: 65vh;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .title-card h2{
     text-align: center;
-    padding-top: 18vh;
+    padding-top: 30vh;
 }
 
 #title-header{
@@ -68,18 +68,14 @@ h1 {
 }
 
 .mission-slide{
-    padding: 2rem;
+    padding: 4rem;
     background: rgba(133, 144, 170, 0.158);
-}
-
-.mission-statement h1{
     text-align: center;
 }
 
-.mission-picture{
-    max-width:100%;
-    height:auto;
-    border-radius: 5px;
+.icon-background {
+    color: #97aabd;
+    text-shadow: 2px 2px 10px #272634;
 }
 
 .reviews{
