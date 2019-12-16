@@ -83,6 +83,7 @@ h1 {
     background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(39,38,52,1) 0%, rgba(151,170,189,1) 100%);
     text-align: center;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+    color: white;
 }
 
 .mission-slide2 .title-background{
@@ -95,6 +96,12 @@ h1 {
     color: white;
     font-size: 18px;
     margin-bottom: 0;
+}
+
+.values-picture {
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
 }
 
 .reviews{
