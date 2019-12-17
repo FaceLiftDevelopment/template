@@ -42,7 +42,7 @@ h1 {
 }
 
 .title-card {
-    background-image: url("assets/title-card.jpg");
+    background-image: url("assets/wood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -92,6 +92,14 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 .service{
     text-align: center;
     padding: 3rem 4rem;
+}
+
+.service p{
+    text-align: left;
+}
+
+.service ul{
+    text-align: left;
 }
 
 .service-picture{
