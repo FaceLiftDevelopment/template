@@ -17,12 +17,14 @@ h1 {
     z-index: 9999;
     background: none;
     transition: background .3s linear;
+    height: 75px;
 }
 
 .opaque-nav{ 
     background: #253441;  
     /* transition the background-color over 1s with a linear animation */
     transition: background .3s linear;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .navbar a{
@@ -107,7 +109,7 @@ h1 {
 }
 
 .reviews{
-    background-image: url("assets/title-card.jpg");
+    background-image: url("assets/wood2.jpg");
 }
 
 .reviews h1{
