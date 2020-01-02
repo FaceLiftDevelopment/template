@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+
+body { 
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 9999;
+    background: none;
+    transition: background .3s linear;
+    height: 75px;
+}
+
+.opaque-nav{ 
+    background: #253441;  
+    /* transition the background-color over 1s with a linear animation */
+    transition: background .3s linear;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.navbar a{
+    color: #97aabd
+}
+
+.navbar i{
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-phone{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar-brand{
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.title-card {
+    background-image: url("assets/maroon-bells.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 65vh;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+}
+
+.title-card h2{
+    text-align: center;
+    padding-top: 30vh;
+}
+
+#title-header{
+    color: white;
+    font-size: 30px;
+    font-size: 2.5vw;
+}
+
+.mission-slide{
+    padding: 4rem;
+    background: rgba(133, 144, 170, 0.158);
+    text-align: center;
+}
+
+.icon-background {
+    color: #97aabd;
+    text-shadow: 2px 2px 10px #272634;
+}
+
+.mission-slide2{
+    padding: 1.5rem;
+    background: rgb(0,137,255);
+    background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(39,38,52,1) 0%, rgba(151,170,189,1) 100%);
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+    color: white;
+}
+
+.mission-slide2 .title-background{
+    padding: 1rem;
+    color: white;
+    text-align: right;
+}
+
+.mission-slide2 .mission-background p{
+    padding: 2rem;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.values-picture {
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+
+.reviews{
+    background-image: url("assets/wood2.jpg");
+}
+
+.reviews h1{
+    width: 100%;
+    color: white;
+}
+
+.reviews .card{
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: auto;
+        box-shadow: 3px;
+        text-align: center;
+}
+
+.reviews .fas{
+    color: rgb(236, 204, 22);
+}
+
+.button-bar{
+    min-height: 50px;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.map{
+    padding: 2rem 5rem;
+    background: rgba(133, 144, 170, 0.158);
+}
+
+.map h3{
+    text-align: center;
+}
+
+#map {
+    height:45vh;
+    width: 100%;
+}
+
+.map .contact-text{
+    position: relative;
+}
+
+.map h4{
+    font-weight: 800;
+}
+
+.map h6 b{
+    font-size: 18px;
+}
+
+.map .socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #253441;
+    height: 50px;
+    text-align: center;
+    color: rgba(168, 175, 175, 0.39);
+}
+
+.footer p{
+    padding-top: 1rem;
+    margin-bottom: 0px;
+}

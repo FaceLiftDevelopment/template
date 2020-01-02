@@ -5,25 +5,13 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-    text-align: center;
-    padding: 1rem;
-}
-
 .navbar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
-    background: none;
-    transition: background .3s linear;
     height: 75px;
-}
-
-.opaque-nav{ 
     background: #253441;  
-    /* transition the background-color over 1s with a linear animation */
-    transition: background .3s linear;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -69,72 +57,36 @@ h1 {
     font-size: 2.5vw;
 }
 
-.mission-slide{
-    padding: 4rem;
-    background: rgba(133, 144, 170, 0.158);
+.form-slide{
+    padding: 7rem 6rem 4rem 6rem;
+    background: #bebebe;
+}
+
+.form-slide h1{
     text-align: center;
 }
 
-.icon-background {
-    color: #97aabd;
-    text-shadow: 2px 2px 10px #272634;
-}
-
-.mission-slide2{
-    background: rgb(0,137,255);
-    background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(39,38,52,1) 0%, rgba(151,170,189,1) 100%);
+.form-slide p{
     text-align: center;
-    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
-    color: white;
 }
 
-.mission-slide2 .title-background{
-    padding: 1rem;
-    color: white;
-    text-align: right;
-}
-
-.mission-slide2 .mission-background p{
+.form-card{
     padding: 2rem;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 0;
-    text-align: justify;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
 }
 
-.values-picture {
-    max-width:100%;
-    height:auto;
-    border-radius: 5px;
+.form-slide h1{
+    font-weight: 900;
 }
 
-.reviews{
-    background-image: url("assets/wood2.jpg");
+.form-slide hr{
+    margin-bottom: 2rem;
 }
 
-.reviews h1{
-    width: 100%;
-    color: white;
-}
-
-.reviews .card{
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        width: auto;
-        box-shadow: 3px;
-        text-align: center;
-}
-
-.reviews .fas{
-    color: rgb(236, 204, 22);
-}
-
-.button-bar{
-    min-height: 50px;
-    padding: 1rem;
-    color: white;
-    text-align: center;
+.form-buttons{
+    text-align: right;
 }
 
 .map{

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="shortcut icon" href="style/assets/favicon.ico" />
     <!-- J Query CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!-- Local CSS Style Sheet -->
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style/about.css">
 
     <title>Facelift | About Us</title>
 </head>
@@ -43,6 +43,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="services.html">Services</a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
         </div>
         <i class="fas fa-phone fa-lg"></i>
         <a id="nav-phone">(303) 772-1782</a>
@@ -61,7 +64,7 @@
     <!-- Values -->
     <div class="row values">
         <div class="col-md-5">
-            <img class="values-picture" src="assets/tools.jpg">
+            <img class="values-picture" src="style/assets/tools.jpg">
         </div>
 
         <div class="col-md-7">
@@ -114,6 +117,51 @@
     <!-- Footer -->
     <div class="footer">
         <p>Developed by Facelift Development LLC</p>
+    </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Send Us a Message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- Modal Form -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone Number (Optional)</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Enter Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Name</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                            <br>
+                            <textarea name="message" id="your-message" type="text" id="form8"
+                                class="md-textarea form-control" rows="4"></textarea>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

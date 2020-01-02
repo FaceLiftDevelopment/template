@@ -15,8 +15,8 @@ h1 {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
-    background: none;
-    transition: background .3s linear;
+    background: #253441;  
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     height: 75px;
 }
 

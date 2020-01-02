@@ -20,9 +20,10 @@ $(document).ready(function () {
     width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     console.log(height);
+    console.log(width);
   
     if (width > 600) {
-      navoffset = 50;
+      navoffset = 75;
     }
   // Add smooth scrolling to all links
   $("a").on('click', function (event) {
@@ -50,8 +51,9 @@ $(document).ready(function () {
 });
 
 $(window).on('scroll', function() {
+  console.log(width);
   console.log("Scrolling")
-    if($(window).scrollTop() > 1){
+    if($(window).scrollTop() > 1 && width > 775){
       $('nav').addClass('opaque-nav');
     }else {
       $('nav').removeClass('opaque-nav');
