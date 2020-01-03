@@ -28,7 +28,7 @@ h1 {
 }
 
 .navbar a{
-    color: #97aabd
+    color: #8191a0
 }
 
 .navbar i{
@@ -43,6 +43,7 @@ h1 {
 
 #navbar-brand{
     color: white;
+    font-size: 24px;
 }
 
 .nav-link:hover {
@@ -50,17 +51,25 @@ h1 {
 }
 
 .title-card {
-    background-image: url("assets/maroon-bells.jpg");
+    background-image: url("assets/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 65vh;
+    min-height: 70vh;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .title-card h2{
     text-align: center;
     padding-top: 30vh;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    font-weight: 900;
+}
+.title-card h4{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.6);
+    font-weight: 900;
 }
 
 #title-header{
@@ -70,9 +79,13 @@ h1 {
 }
 
 .mission-slide{
-    padding: 4rem;
+    padding: 4rem 8rem;
     background: rgba(133, 144, 170, 0.158);
     text-align: center;
+}
+
+.mission-slide .service-card{
+    padding: .5rem 4rem;
 }
 
 .icon-background {
@@ -81,7 +94,7 @@ h1 {
 }
 
 .mission-slide2{
-    padding: 1.5rem;
+    padding: 2rem 8rem;
     background: rgb(0,137,255);
     background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(39,38,52,1) 0%, rgba(151,170,189,1) 100%);
     text-align: center;
@@ -103,6 +116,12 @@ h1 {
     text-align: justify;
 }
 
+.mission-slide2 p{
+font-size: 24px;
+margin: auto;
+font-weight: 900;
+}
+
 .values-picture {
     max-width:100%;
     height:auto;
@@ -110,6 +129,7 @@ h1 {
 }
 
 .reviews{
+    padding: 4rem 8rem;
     background-image: url("assets/wood2.jpg");
 }
 
@@ -127,15 +147,21 @@ h1 {
         text-align: center;
 }
 
+.reviews .card .card-date{
+text-align: left;
+color: #25344163;
+font-weight: 900;
+}
+
 .reviews .fas{
     color: rgb(236, 204, 22);
 }
 
-.button-bar{
-    min-height: 50px;
+.reviews .btn{
+    width: 20%;
     padding: 1rem;
-    color: white;
-    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .map{
