@@ -118,8 +118,7 @@ h1 {
 
 .mission-slide{
     padding: 4rem 8rem;
-    background: #9DCEEA;
-    /* background: rgba(133, 144, 170, 0.158); */
+    background: rgba(133, 144, 170, 0.158);
     text-align: center;
 }
 
@@ -205,7 +204,7 @@ font-weight: 900;
 
 .map{
     padding: 2rem 5rem;
-    background: #9DCEEA;
+    background: rgba(133, 144, 170, 0.158);
 }
 
 .map h3{
@@ -237,7 +236,7 @@ font-weight: 900;
 }
 
 .footer {
-    background-color: #FCC61F;
+    background-color: #253441;
     height: 50px;
     text-align: center;
     color: rgba(168, 175, 175, 0.39);
