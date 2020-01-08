@@ -118,7 +118,7 @@ h1 {
 
 .mission-slide{
     padding: 4rem 8rem;
-    background: rgba(133, 144, 170, 0.158);
+    background: #d8ddf1;
     text-align: center;
 }
 
@@ -141,13 +141,17 @@ h1 {
 }
 
 .mission-slide2 .title-background{
-    padding: 1rem;
+    padding: 2rem 1rem;
     color: white;
     text-align: right;
 }
 
+.mission-slide2 .mission-background{
+    padding: 2rem 1rem;
+}
+
 .mission-slide2 .mission-background p{
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     color: white;
     font-size: 18px;
     margin-bottom: 0;
@@ -159,6 +163,16 @@ font-size: 24px;
 margin: auto;
 font-weight: 900;
 }
+
+.mission-slide2 h1{
+    text-align: left;
+    }
+
+.mission-slide2 li{
+    margin: auto;
+    font-weight: 600;
+    text-align: left;
+    }
 
 .values-picture {
     max-width:100%;

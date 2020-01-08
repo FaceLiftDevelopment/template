@@ -3,7 +3,6 @@
 body { 
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
 }
 
 h1 {
@@ -157,6 +156,40 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     max-width:100%;
     height:auto;
     border-radius: 5px;
+}
+
+
+.map{
+    padding: 2rem 5rem;
+    background: rgba(133, 144, 170, 0.158);
+}
+
+.map h3{
+    text-align: center;
+}
+
+#map {
+    height:45vh;
+    width: 100%;
+}
+
+.map .contact-text{
+    position: relative;
+}
+
+.map h4{
+    font-weight: 800;
+}
+
+.map h6 b{
+    font-size: 18px;
+}
+
+.map .socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .footer {

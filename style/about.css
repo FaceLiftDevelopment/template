@@ -154,10 +154,38 @@ padding: 2rem;
     text-shadow: 2px 2px 10px #272634;
 }
 
-.modal {
-    margin-top: 10vh;
-    z-index: 100001 !important;
-  }
+.map{
+    padding: 2rem 5rem;
+    background: rgba(133, 144, 170, 0.158);
+}
+
+.map h3{
+    text-align: center;
+}
+
+#map {
+    height:45vh;
+    width: 100%;
+}
+
+.map .contact-text{
+    position: relative;
+}
+
+.map h4{
+    font-weight: 800;
+}
+
+.map h6 b{
+    font-size: 18px;
+}
+
+.map .socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 .footer {
     background-color: #253441;
