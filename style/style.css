@@ -50,13 +50,22 @@ h1 {
     color: white;
 }
 
-/* Style the navigation menu */
-.mobilenav {
+  .mobilenav {
     overflow: hidden;
     background-color: #253441;
-    position: relative;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
     display: none;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
   }
+
+  .hide-mobile-nav{
+    top: -50px;
+    box-shadow: none;
+}
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .mobilenav #myLinks {
@@ -288,5 +297,8 @@ font-weight: 900;
     }
     #map{
         display: none;
+    }
+    .get-in-touch h4{
+        margin-top: 3rem;
     }
   }

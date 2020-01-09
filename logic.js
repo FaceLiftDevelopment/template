@@ -1,6 +1,7 @@
 var height = 0;
 var width = 0;
 var navoffset = 0;
+var prevTop = window.pageYOffset;
 
 // Initialize and add the map
 function initMap() {
@@ -50,9 +51,19 @@ $(document).ready(function () {
   });
 });
 
+window.onscroll = function() {
+  var currentTop = window.pageYOffset;
+  if (prevTop < currentTop) {
+    $('.mobilenav').addClass('hide-mobile-nav');
+    console.log("Show nav");
+  }else {
+    $('.mobilenav').removeClass('hide-mobile-nav');
+    console.log("Hide nav")
+  }
+  prevTop = currentTop;
+}
+
 $(window).on('scroll', function() {
-  console.log(width);
-  console.log("Scrolling")
     if($(window).scrollTop() > 1 && width > 775){
       $('nav').addClass('opaque-nav');
     }else {
