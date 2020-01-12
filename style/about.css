@@ -16,7 +16,7 @@ h1 {
     width: 100%; /* Full width */
     z-index: 9999;
     height: 75px;
-    background: #253441;  
+    background: #676F7D;  
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -42,14 +42,22 @@ h1 {
     color: white;
 }
 
-
-/* Style the navigation menu */
 .mobilenav {
     overflow: hidden;
     background-color: #253441;
-    position: relative;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
     display: none;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
   }
+
+  .hide-mobile-nav{
+    top: -50px;
+    box-shadow: none;
+}
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .mobilenav #myLinks {
@@ -79,7 +87,6 @@ h1 {
     background-color: #ddd;
     color: black;
   }
-  
   /* Style the active link (or home/logo) */
   .active {
     color: white;
@@ -106,14 +113,13 @@ h1 {
 }
 
 .slogan{
-    background-color: #97aabd;
-    padding: 2rem;
-    height: 100px;
+    background-color: #233658;
+    padding: 1rem;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .slogan h3{
-    color: #253441;
+    color: white;
     text-align: center;
     font-size: 30px;
 }
@@ -132,6 +138,7 @@ h1 {
     max-width:100%;
     height:auto;
     border-radius: 5px;
+    margin-bottom: 3rem;
 }
 
 .guarantee-slide{
@@ -199,11 +206,30 @@ padding: 2rem;
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1000px) {
     .navbar{
         display: none;
     }
     .mobilenav{
         display: block;
+    }
+  }
+
+
+@media screen and (max-width: 775px) {
+    #title-header{
+        font-size: 45px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    #map{
+        display: none;
+    }
+    .get-in-touch h4{
+        margin-top: 3rem;
+    }
+    #title-header{
+        font-size: 35px;
     }
   }

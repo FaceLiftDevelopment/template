@@ -37,13 +37,23 @@ body {
     color: white;
 }
 
-/* Style the navigation menu */
+
 .mobilenav {
     overflow: hidden;
     background-color: #253441;
-    position: relative;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
     display: none;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
   }
+
+  .hide-mobile-nav{
+    top: -50px;
+    box-shadow: none;
+}
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .mobilenav #myLinks {
@@ -73,7 +83,6 @@ body {
     background-color: #ddd;
     color: black;
   }
-  
   /* Style the active link (or home/logo) */
   .active {
     color: white;
@@ -176,11 +185,31 @@ body {
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1000px) {
     .navbar{
         display: none;
     }
     .mobilenav{
         display: block;
+    }
+  }
+
+
+@media screen and (max-width: 775px) {
+    .form-slide{
+        padding: 5rem 1rem;
+        background: #bebebe;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    #map{
+        display: none;
+    }
+    .get-in-touch h4{
+        margin-top: 3rem;
+    }
+    #title-header{
+        font-size: 35px;
     }
   }

@@ -21,7 +21,7 @@ h1 {
 }
 
 .opaque-nav{ 
-    background: #253441;  
+    background: #676F7D;  
     /* transition the background-color over 1s with a linear animation */
     transition: background .3s linear;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
@@ -106,7 +106,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 90vh;
+    min-height: 95vh;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -128,6 +128,7 @@ h1 {
 .mission-slide{
     padding: 4rem 8rem;
     background: #d8ddf1;
+    /* background: #1d284f; */
     text-align: center;
 }
 
@@ -136,14 +137,19 @@ h1 {
 }
 
 .icon-background {
-    color: #FCC61F;
+    /* color: #FCC61F; */
+    color: #676F7D;
     text-shadow: 2px 2px 10px #272634;
+}
+
+.button{
+    background-color: #FCC61F;
 }
 
 .mission-slide2{
     padding: 2rem 8rem;
     background: rgb(0,137,255);
-    background: linear-gradient(90deg, rgba(0,137,255,1) 0%, rgba(39,38,52,1) 0%, rgba(151,170,189,1) 100%);
+    background: linear-gradient(90deg, #1d284f 0%, #1d284f 0%, rgba(151,170,189,1) 100%);
     text-align: center;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     color: white;
@@ -270,13 +276,16 @@ font-weight: 900;
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1000px) {
     .navbar{
         display: none;
     }
     .mobilenav{
         display: block;
     }
+  }
+
+@media screen and (max-width: 775px) {
     .mission-slide{
         padding: 2rem 2rem;
     }

@@ -47,9 +47,25 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
         </div>
-        <i class="fas fa-phone fa-lg"></i>
-        <a id="nav-phone">(303) 772-1782</a>
+        <span><i class="fas fa-phone fa-lg"></i>
+            <a id="nav-phone">(303) 772-1782</a></span>
     </nav>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobilenav">
+            <a href="index.html" class="active">Facelift Remodeling</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
     <!-- Landing page title card-->
     <div class="title-card">
@@ -74,23 +90,6 @@
             </a>
         </div>
     </div>
-
-    <!-- Mobile Navigation Menu -->
-    <div class="mobilenav">
-        <a href="index.html" class="active">Facelift Remodeling</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
 
     <!-- Services -->
     <a id="service1"></a>
@@ -123,6 +122,9 @@
 
     <a id="service2"></a>
     <div class="row service">
+        <div class="col-md-5 service3-above">
+            <img class="service-picture shadow" src="style/assets/bathroom.jpg">
+        </div>
         <div class="col-md-7">
             <h3>Bathroom</h3>
             <p>Elegant, peaceful, spacious: Do these words come to mind when you think of your bathroom? If not,
@@ -140,7 +142,7 @@
                 </ul>
             </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 service3-below">
             <img class="service-picture shadow" src="style/assets/bathroom.jpg">
         </div>
     </div>
@@ -187,7 +189,7 @@
                     <h6><b>Saturday:</b> 10:00AM - 5:00PM</h6>
                     <h6><b>Sunday:</b> 12:00PM - 6:00PM</h6>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 get-in-touch">
                     <h4>Get In Touch</h4>
                     <hr>
                     <p><i class="fas fa-phone fa-lg"></i> (303) 777-7777</p>
