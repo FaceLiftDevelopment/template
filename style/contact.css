@@ -5,6 +5,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+hr{
+    background-color: #FCC61F;
+    height: 2px;
+}
+
 .navbar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */

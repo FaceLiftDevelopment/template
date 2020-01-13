@@ -10,13 +10,18 @@ h1 {
     padding: 1rem;
 }
 
+hr{
+    background-color: #FCC61F;
+    height: 2px;
+}
+
 .navbar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
     height: 75px;
-    background: #676F7D;  
+    background: #253441;  
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -125,7 +130,7 @@ h1 {
 }
 
 .values{
-    padding: 3rem;
+    padding: 4rem;
     text-align: center;
     background: rgba(133, 144, 170, 0.158);
 }
