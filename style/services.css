@@ -153,10 +153,12 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 
 .service p{
     text-align: left;
+    padding: 1rem 3rem;
 }
 
 .service ul{
     text-align: left;
+    padding: 0rem 3rem;
 }
 
 .service-picture{
