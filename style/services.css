@@ -19,17 +19,11 @@ hr{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index: 9999;
-    background: #253441;  
+    background: #233658;  
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     height: 75px;
 }
 
-.opaque-nav{ 
-    background: #253441;  
-    /* transition the background-color over 1s with a linear animation */
-    transition: background .3s linear;
-    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
-}
 
 .navbar a{
     color: #97aabd
@@ -108,7 +102,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 65vh;
+    min-height: 75vh;
 }
 
 .title-card h2{

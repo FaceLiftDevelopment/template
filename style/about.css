@@ -21,7 +21,7 @@ hr{
     width: 100%; /* Full width */
     z-index: 9999;
     height: 75px;
-    background: #253441;  
+    background: #233658;  
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -103,7 +103,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 65vh;
+    min-height: 75vh;
 }
 
 .title-card h2{
@@ -119,6 +119,7 @@ hr{
 
 .slogan{
     background-color: #233658;
+    background-color: #253441;
     padding: 1rem;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
@@ -137,6 +138,7 @@ hr{
 
 .values p{
     text-align: justify;
+    padding: 1rem 4rem;
 }
 
 .values-picture {

@@ -26,7 +26,7 @@ hr{
 }
 
 .opaque-nav{ 
-    background: #253441;  
+    background: #233658;  
     /* transition the background-color over 1s with a linear animation */
     transition: background .3s linear;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
@@ -132,8 +132,7 @@ hr{
 
 .mission-slide{
     padding: 4rem 8rem;
-    background: #d8ddf1;
-    /* background: #1d284f; */
+    background: #f7f9ff;
     text-align: center;
 }
 
@@ -193,6 +192,10 @@ font-weight: 900;
     max-width:100%;
     height:auto;
     border-radius: 5px;
+}
+
+.fa-award{
+    color:#FCC61F;
 }
 
 .reviews{
