@@ -117,7 +117,7 @@ hr{
 }
 
 .service-bar{
-background: #314455;
+background: #7190B3;
 box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
@@ -133,17 +133,17 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 
 .service-button1:hover{
     cursor: pointer;
-    background: #97AABD;
+    background: rgba(97, 130, 167, 0.925);
 }
 
 .service-button2:hover{
     cursor: pointer;
-    background: #97AABD;
+    background: rgba(97, 130, 167, 0.925);
 }
 
 .service-button3:hover{
     cursor: pointer;
-    background: #97AABD;
+    background: rgba(97, 130, 167, 0.925);
 }
 
 .service{
