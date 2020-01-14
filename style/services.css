@@ -129,6 +129,7 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     padding: 1rem;
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
 .service-button1:hover{

@@ -131,6 +131,15 @@ hr{
     font-weight: 900;
 }
 
+.mission-slide3{
+    padding: 2rem 8rem;
+    background: rgb(0,137,255);
+    background: linear-gradient(90deg, #1d284f 0%, #1d284f 0%, rgba(151,170,189,1) 100%);
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+    color: white;
+}
+
 .mission-slide{
     padding: 4rem 8rem;
     background: #f7f9ff;
@@ -148,16 +157,12 @@ hr{
 
 .mission-slide2{
     padding: 2rem 8rem;
-    background: rgb(0,137,255);
-    background: linear-gradient(90deg, #1d284f 0%, #1d284f 0%, rgba(151,170,189,1) 100%);
     text-align: center;
     box-shadow: 10px 5px 5px rgba(0,0,0,.2);
-    color: white;
 }
 
 .mission-slide2 .title-background{
     padding: 2rem 1rem;
-    color: white;
     text-align: right;
 }
 
@@ -167,7 +172,6 @@ hr{
 
 .mission-slide2 .mission-background p{
     padding: 2rem 2rem 1rem 2rem;
-    color: white;
     font-size: 18px;
     margin-bottom: 0;
     text-align: initial;
@@ -187,6 +191,7 @@ font-weight: 900;
     margin-left: 40px;
     font-weight: 600;
     text-align: left;
+    font-size: 18px;
     }
 
 .values-picture {
