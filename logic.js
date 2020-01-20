@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 window.onscroll = function() {
   var currentTop = window.pageYOffset;
-  if (prevTop < currentTop) {
+  if (currentTop > 750 && prevTop < currentTop) {
     $('.mobilenav').addClass('hide-mobile-nav');
     console.log("Show nav");
   }else {
