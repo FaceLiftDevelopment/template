@@ -97,6 +97,12 @@ hr{
     color: white;
   }
 
+  .mobilenav span{
+    color: rgb(165, 165, 165);
+    float: right;
+    margin-right: 40px;
+  }
+
 
 .title-card {
     background-image: url("assets/wood2.jpg");
@@ -150,7 +156,8 @@ hr{
 .guarantee-slide{
     padding: 2rem;
     text-align: center;
-    background-image: url("assets/white-brick.jpg");
+    background-image: url("assets/wood4.jpg");
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 }
 
 .guarantee-slide h1{
@@ -225,6 +232,9 @@ padding: 2rem;
 @media screen and (max-width: 775px) {
     #title-header{
         font-size: 45px;
+    }
+    .values p{
+        padding: 2rem 0rem;
     }
   }
 

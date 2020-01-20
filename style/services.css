@@ -97,6 +97,12 @@ hr{
     color: white;
   }
 
+  .mobilenav span{
+    color: rgb(165, 165, 165);
+    float: right;
+    margin-right: 40px;
+  }
+
 .title-card {
     background-image: url("assets/wood.jpg");
     background-repeat: no-repeat;
@@ -149,7 +155,7 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
 
 .service{
     text-align: center;
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 0rem 4rem;
 }
 
 .service p{
@@ -166,6 +172,7 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     max-width:100%;
     height:auto;
     border-radius: 5px;
+    margin-top: 3rem;
 }
 
 .service3-above{
@@ -230,6 +237,13 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     #title-header{
         font-size: 45px;
     }
+    .service {
+        text-align: center;
+        padding: 2rem 3rem 0rem 3rem;
+    }
+    .service p{
+        padding: 1rem 0rem;
+    }
   }
 
   @media screen and (max-width: 450px) {
@@ -250,5 +264,8 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     }
     .service3-below{
         display: none;
+    }
+    .service-picture{
+        margin-top: none;
     }
   }

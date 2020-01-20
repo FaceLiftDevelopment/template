@@ -107,6 +107,13 @@ hr{
     color: white;
   }
 
+  .mobilenav span{
+    color: rgb(165, 165, 165);
+    float: right;
+    margin-right: 40px;
+  }
+
+
 .title-card {
     background-image: url("assets/home.jpg");
     background-repeat: no-repeat;
@@ -142,7 +149,7 @@ hr{
 
 .mission-slide{
     padding: 4rem 8rem;
-    background: #f7f9ff;
+    background: #ffffff;
     text-align: center;
 }
 
@@ -153,6 +160,18 @@ hr{
 .icon-background {
     color: #FCC61F;
     text-shadow: 2px 2px 10px #272634;
+}
+
+.fa-utensils{
+    color: #505050;
+}
+
+.fa-toilet{
+    color: #505050;
+}
+
+.fa-plus{
+    color: #505050;
 }
 
 .mission-slide2{
@@ -180,7 +199,7 @@ hr{
 .mission-slide2 p{
 font-size: 24px;
 margin: auto;
-font-weight: 900;
+font-weight: 400;
 }
 
 .mission-slide2 h1{
@@ -190,7 +209,7 @@ font-weight: 900;
 
 .mission-slide2 li{
     margin-left: 40px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: left;
     font-size: 18px;
     }
@@ -308,9 +327,19 @@ font-weight: 900;
     .service-card{
         margin-bottom: 2rem;
     }
+    .mission-slide3{
+        padding: 2rem 0rem;
+    }
   }
 
   @media screen and (max-width: 450px) {
+    .title-card {
+        background-image: url("assets/home.jpg");
+        background-position: center;
+    }
+    .title-card h2{
+    padding-top: 25vh;
+    }
     .reviews .btn{
         width: 50%;
     }
@@ -319,5 +348,11 @@ font-weight: 900;
     }
     .get-in-touch h4{
         margin-top: 3rem;
+    }
+    .mission-slide3 h1{
+        font-size: 24px;
+    }
+    .mission-slide2 .title-background {
+        padding: 0rem 1rem 4rem 1rem;
     }
   }
