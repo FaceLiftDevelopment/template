@@ -202,6 +202,10 @@ margin: auto;
 font-weight: 400;
 }
 
+.mission-slide2 #award{
+    font-weight: 900;
+    }
+
 .mission-slide2 h1{
     text-align: left;
     padding: 0rem 2rem;
@@ -330,6 +334,9 @@ font-weight: 900;
     .mission-slide3{
         padding: 2rem 0rem;
     }
+    .mission-slide2 #award{
+        font-weight: 900;
+        }
   }
 
   @media screen and (max-width: 450px) {
