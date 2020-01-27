@@ -81,10 +81,10 @@ hr{
   /* Style navigation menu links */
   .mobilenav a {
     color: white;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    padding: 14px 16px;
   }
   
   /* Style the hamburger menu */
@@ -105,12 +105,17 @@ hr{
   /* Style the active link (or home/logo) */
   .active {
     color: white;
+    padding: 14px 16px;
   }
 
-  .mobilenav span{
+  .mobilenav #number{
+      padding: 0rem;
     color: rgb(165, 165, 165);
     float: right;
     margin-right: 40px;
+  }
+  .mobilenav #number:hover {
+    background-color: #253441;
   }
 
 
@@ -316,17 +321,25 @@ font-weight: 900;
     .mobilenav{
         display: block;
     }
-  }
-
-@media screen and (max-width: 775px) {
     .mission-slide{
-        padding: 2rem 2rem;
-    }
-    .mission-slide2{
         padding: 2rem 2rem;
     }
     .reviews{
         padding: 2rem 2rem;
+    }
+  }
+
+@media screen and (max-width: 775px) {
+    .title-card {
+        background-image: url("assets/home.jpg");
+        background-position: calc(63% - 50px) 63%;
+        background-repeat: no-repeat;
+    }
+    .mission-slide2{
+        padding: 2rem 2rem;
+    }
+    .mission-slide2 .title-background {
+        padding: 0rem 1rem 4rem 1rem;
     }
     .service-card{
         margin-bottom: 2rem;
@@ -340,10 +353,6 @@ font-weight: 900;
   }
 
   @media screen and (max-width: 450px) {
-    .title-card {
-        background-image: url("assets/home.jpg");
-        background-position: center;
-    }
     .title-card h2{
     padding-top: 25vh;
     }
@@ -358,8 +367,5 @@ font-weight: 900;
     }
     .mission-slide3 h1{
         font-size: 24px;
-    }
-    .mission-slide2 .title-background {
-        padding: 0rem 1rem 4rem 1rem;
     }
   }

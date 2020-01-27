@@ -72,10 +72,10 @@ hr{
   /* Style navigation menu links */
   .mobilenav a {
     color: white;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    padding: 14px 16px;
   }
   
   /* Style the hamburger menu */
@@ -92,15 +92,21 @@ hr{
     background-color: #ddd;
     color: black;
   }
+  
   /* Style the active link (or home/logo) */
   .active {
     color: white;
+    padding: 14px 16px;
   }
 
-  .mobilenav span{
+  .mobilenav #number{
+      padding: 0rem;
     color: rgb(165, 165, 165);
     float: right;
     margin-right: 40px;
+  }
+  .mobilenav #number:hover {
+    background-color: #253441;
   }
 
 .title-card {
@@ -243,6 +249,12 @@ box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     }
     .service p{
         padding: 1rem 0rem;
+    }
+    .service-bar h5{
+        border-bottom: 3px solid #25344138;
+    }
+    .service-bar #additions{
+        margin-bottom: 0px;
     }
   }
 
